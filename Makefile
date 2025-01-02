@@ -5,7 +5,7 @@ includedir := include/
 sourcedir := src/
 
 binaries :=
-sources :=
+sources := $(sourcedir)addressmap.c
 objects := $(patsubst %.c,%.o,$(sources))
 depends := $(patsubst %.c,%.d,$(sources))
 
